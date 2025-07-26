@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>YSD001</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>POS Ventas mostrador</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>YSD001</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>YSD001</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No se han encontrado registros.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>YSD001</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No se han encontrado registros en la &amp; para el usuario: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>YSD001</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No se ha encontrado stock para el material indicado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>YSD001</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>No se han encontrado tipo posiciones.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>YSD001</ARBGB>
+     <MSGNR>400</MSGNR>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

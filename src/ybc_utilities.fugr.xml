@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Utilidades ABAP</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LYBC_UTILITIESTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLYBC_UTILITIES</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Y_ABAP_STRING_SPLIT</FUNCNAME>
+     <SHORT_TEXT>Divida la cadena en los caracteres de control, cumpla con la longitud máx.</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>INPUT_STRING</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MAX_COMPONENT_LENGTH</PARAMETER>
+       <DEFAULT>SWB1_HTML_LINE_LENGTH</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>I</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>STRING_COMPONENTS</PARAMETER>
+       <DBSTRUCT>SWASTRTAB</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>INPUT_STRING</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MAX_COMPONENT_LENGTH</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>STRING_COMPONENTS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>WF: Visualización de un string en líneas de 255 caracteres</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Y_ABAP_TO_INTERNAL_FORMAT</FUNCNAME>
+     <SHORT_TEXT>Convertir fecha a formato interno</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_INPUT</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_OUTPUT</PARAMETER>
+       <TYP>DATUM</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EX_ERROR</PARAMETER>
+       <TYP>C</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_INPUT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_OUTPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Campo de sistema ABAP: Fecha actual del servidor aplicación</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_ERROR</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

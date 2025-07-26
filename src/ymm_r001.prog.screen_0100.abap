@@ -1,0 +1,31 @@
+PROCESS BEFORE OUTPUT.
+  MODULE SUPPRESS_DIALOG.
+  MODULE EINZEL_ANZEIGE.
+
+PROCESS AFTER INPUT.
+*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
